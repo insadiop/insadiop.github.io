@@ -45,7 +45,7 @@ Table OF Contents
 /* -- typography -- */
 
 body {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Sectra', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
@@ -113,11 +113,15 @@ a:hover, a:focus {
 }
 
 ul, ol {
-    margin: 0;
+	margin: 0;
+    margin-left: 25px;
     padding: 0;
-    list-style: none
+    list-style: disc
 }
 
+li {
+margin:0;
+}
 /* -- section  -- */
 
 .section {
@@ -1750,4 +1754,22 @@ header {
     -webkit-transform:scale(0);
             transform:scale(0);
   }
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #005876;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #005876;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }

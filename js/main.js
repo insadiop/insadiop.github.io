@@ -85,6 +85,27 @@
 		autoplay : true,
 		animateOut: 'fadeOut'
 	});
+	$('#about-slider3').owlCarousel({
+		items:1,
+		loop:true,
+		margin:15,
+		nav: true,
+		navText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		dots : true,
+		autoplay : true,
+		animateOut: 'fadeOut'
+	});
+	// Owl Carousel
+	$('#about-slider4').owlCarousel({
+		items:2,
+		loop:true,
+		margin:15,
+		nav: true,
+		navText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		dots : true,
+		autoplay : true,
+		animateOut: 'fadeOut'
+	});	
 		// Owl Carousel
 	
 	$('#testimonial-slider').owlCarousel({

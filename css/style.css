@@ -792,7 +792,10 @@ header {
     position: relative;
     padding: 40px 20px 40px 70px;
     margin: 15px 0px;
-    border: 1px solid #EEE;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	background-color: #f9f9f9;
 }
 
 .service i {
@@ -802,24 +805,10 @@ header {
     font-size: 32px;
     color:  #005876;
     border-radius: 50%;
+
 }
 
-.service:after {
-    content: "";
-    background-color: #1C1D21;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 0%;
-    z-index: -1;
-    -webkit-transition: 0.2s width;
-    transition: 0.2s width;
-}
 
-.service:hover:after {
-    width: 100%;
-}
 
 .service h3 {
   -webkit-transition: 0.2s color;
@@ -827,7 +816,7 @@ header {
 }
 
 .service:hover h3 {
-    color: #fff;
+  
 }
 
 /*------------------------------------*\
@@ -1761,6 +1750,9 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
+      -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 blockquote:before {
   color: #005876;
